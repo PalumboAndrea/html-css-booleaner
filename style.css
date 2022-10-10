@@ -1,38 +1,17 @@
-.upper_section{
-    background-color: rgba(62, 136, 250);
-    height: 8rem;
-    background-image: url(img/pattern.png);
-    background-position: top;
-    background-repeat: repeat-x;
-    background-size: 30rem;
+body{
+    margin: 0;
 }
 
-#booleaner{
-    height: 3.5rem;
-    padding-top: 3.5rem;
-    padding-left: 1rem;
+main, footer{
+    margin: 8px;
 }
 
-#title{
-    margin-bottom: 0.2rem;
+ul{
+    padding: 0;
 }
 
-#written_by{
-    color: gray;
-    font-size: 1.2rem;
-}
-
-#date{
-    color: gray;
-    padding-bottom: 1rem;
-}
-
-.photo_description{
-    margin-top: 0;
-}
-
-.highlighted{
-    background-color: #FFFF00;
+li{
+    list-style-position: inside;
 }
 
 th{
@@ -44,8 +23,73 @@ table{
     border-collapse: collapse;
 }
 
+h4{
+    color: grey;
+    margin-bottom: 0.5rem;
+}
+
+.upper_section{
+    background-color: rgba(62, 136, 250);
+    height: 8rem;
+    background-image: url(img/pattern.png);
+    background-position: top;
+    background-repeat: repeat-x;
+    background-size: 30rem;
+}
+
+.highlighted{
+    background-color: #FFFF00;
+}
+
 .longer_td{
-    width: 60%;
+    width: 50%;
+}
+
+.photo_description{
+    margin-top: 0;
+    font-size: 0.8rem;
+}
+
+.tr_darker{
+    background-color: rgb(164, 222, 238);
+}
+
+.links{
+    color: white;
+    width: 15rem;
+    height: 10rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.links_name{
+    margin-left: 0;
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+ }
+
+#booleaner{
+    height: 3.5rem;
+    padding-top: 3.5rem;
+    padding-left: 0.5rem;
+}
+
+#title{
+    margin-top: 0.6rem;
+    margin-bottom: 0.2rem;
+    font-size: 2rem;
+}
+
+#written_by{
+    color: gray;
+    font-size: 1rem;
+}
+
+#date{
+    color: gray;
+    padding-bottom: 1rem;
+    font-size: 0.8rem;
 }
 
 #upper_tr{
@@ -53,6 +97,10 @@ table{
     background-color: rgba(32, 151, 223);
 }
 
-.tr_darker{
-    background-color: rgb(164, 222, 238);
+#link1{
+    background-image: url(img/monitor.jpg);
+}
+
+#link2{
+    background-image: url(img/graph.jpg);
 }
