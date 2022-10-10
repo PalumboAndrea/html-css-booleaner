@@ -14,5 +14,45 @@
 }
 
 #title{
-    margin-bottom: 0;
+    margin-bottom: 0.2rem;
+}
+
+#written_by{
+    color: gray;
+    font-size: 1.2rem;
+}
+
+#date{
+    color: gray;
+    padding-bottom: 1rem;
+}
+
+.photo_description{
+    margin-top: 0;
+}
+
+.highlighted{
+    background-color: #FFFF00;
+}
+
+th{
+    padding: 0;
+    text-align: left;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.longer_td{
+    width: 60%;
+}
+
+#upper_tr{
+    color: white;
+    background-color: rgba(32, 151, 223);
+}
+
+.tr_darker{
+    background-color: rgb(164, 222, 238);
 }
